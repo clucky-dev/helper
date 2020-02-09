@@ -1,7 +1,7 @@
 #Details of the GitHub source location
 GH_REPO="wrkzcoin"
 GH_URL="https://github.com/wrkzcoin/" #keep trailing slash
-GH_BRANCH="master"
+GH_BRANCH="development"
 
 #Abbreviated coin name or ticker - used for naming the docker containers
 S_NAME="wrkz"
@@ -13,7 +13,7 @@ P2P_PORT="17855"
 RPC_PORT="17856"
 
 #If you change this line you have to rebuild your docker container (./helper build)
-CHECKPOINTS_URL="https://github.com/wrkzcoin/checkpoints/blob/master/wrkzcoin_checkpoints.csv"
+CHECKPOINTS_URL="https://github.com/wrkzcoin/checkpoints/raw/master/wrkzcoin_checkpoints.csv"
 
 #Extra daemon options
 ENABLE_BLOCKEXPLORER="0" # 1 enables option
